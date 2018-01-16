@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8bdf4fb7082703007f44231aab67e369</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="x_snc_loaner_reque_loaner_request">
+    <x_snc_loaner_reque_loaner_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <asset_barcode>0002-6075903126</asset_barcode>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci display_value="*DAVID-IBM">d0fdbc8437201000deeabfc8bcbe5d33</cmdb_ci>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <depot>sc</depot>
+        <description/>
+        <due_date/>
+        <end_date>2018-01-24 08:40:47</end_date>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <item_type>cmdb_ci_mobile_device</item_type>
+        <knowledge>false</knowledge>
+        <location/>
+        <location_to_be_used/>
+        <made_sla>true</made_sla>
+        <number>LNR000020</number>
+        <opened_at>2018-01-16 08:38:58</opened_at>
+        <opened_by display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</opened_by>
+        <order/>
+        <other/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <reference_for display_value="Aileen Mottern">71826bf03710200044e0bfc8bcbe5d3b</reference_for>
+        <rejection_goto/>
+        <short_description/>
+        <sla_due/>
+        <start_date>2018-01-16 08:40:45</start_date>
+        <state>13</state>
+        <sys_class_name>x_snc_loaner_reque_loaner_request</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2018-01-16 08:39:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bdf4fb7082703007f44231aab67e369</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-16 08:40:53</sys_updated_on>
+        <time_worked/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_loaner_reque_loaner_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-16 12:12:07</sys_created_on>
+        <sys_id>95a00440087703007f44231aab67e3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LNR000020</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">a466c7e7086303007f44231aab67e3d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">a466c7e7086303007f44231aab67e3d4</sys_scope>
+        <sys_update_name>sys_metadata_link_95a00440087703007f44231aab67e3a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-16 12:12:07</sys_updated_on>
+        <tablename>x_snc_loaner_reque_loaner_request</tablename>
+    </sys_metadata_link>
+</record_update>
