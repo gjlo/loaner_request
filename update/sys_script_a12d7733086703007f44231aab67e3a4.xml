@@ -29,16 +29,23 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	gs.addInfoMessage('today(): ' + (yesterday() + 3600));
+	
 	if (current.end_date < current.start_date) {
 		gs.addErrorMessage('End date must be later than start date!');
 		current.setAbortAction(true);
 	}
-	if (current.start_date > yesterday() + 3600) {
-				gs.addErrorMessage('Earliest start date must be tomorrow!');
+	
+	var tomorrow = new Date();
+	var startDate = new Date(current.start_date.split(' ')[0]);
+	
+	gs.addInfoMessage('startDate: ' + startDate);	
+	gs.addInfoMessage('startDate-Split: ' + current.start_date.split(' ')[0])
+	gs.addInfoMessage('tomorrow: ' + tomorrow);
+	
+	if (startDate <= tomorrow) {
+		gs.addErrorMessage('Earliest start date must be tomorrow!');
 		current.setAbortAction(true);
 	}
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -46,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a12d7733086703007f44231aab67e3a4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Set Start and End dates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">a466c7e7086303007f44231aab67e3d4</sys_package>
@@ -54,7 +61,7 @@
         <sys_scope display_value="Loaner Request">a466c7e7086303007f44231aab67e3d4</sys_scope>
         <sys_update_name>sys_script_a12d7733086703007f44231aab67e3a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-16 12:04:37</sys_updated_on>
+        <sys_updated_on>2018-01-16 13:13:27</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
