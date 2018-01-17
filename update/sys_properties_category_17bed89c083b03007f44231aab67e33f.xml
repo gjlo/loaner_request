@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Loaner Request</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-17 09:04:39</sys_created_on>
+        <sys_id>17bed89c083b03007f44231aab67e33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">a466c7e7086303007f44231aab67e3d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">a466c7e7086303007f44231aab67e3d4</sys_scope>
+        <sys_update_name>sys_properties_category_17bed89c083b03007f44231aab67e33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-17 09:04:39</sys_updated_on>
+        <title><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;">Loaner Request Properties</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Before change please inform <a href="mailto:snow-changes&#64;materna.de" rel="nofollow">snow-changes&#64;materna.de</a>. </span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Configuration options</span></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=17bed89c083b03007f44231aab67e33f"/>
+</record_update>

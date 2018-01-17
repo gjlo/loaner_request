@@ -6,41 +6,39 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_snc_loaner_reque_loaner_request">state!=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
-        <hint>Show open loaner requests.</hint>
+        <filter/>
+        <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Create new</mobile_title>
+        <mobile_title>Admin</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_loaner_reque_loaner_request</name>
-        <order>300</order>
+        <name/>
+        <order>650</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_snc_loaner_reque.loaner_request_user,x_snc_loaner_reque.admin</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-01-15 13:41:31</sys_created_on>
+        <sys_created_on>2018-01-17 09:15:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5d8bcf2b086303007f44231aab67e31b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Open</sys_name>
+        <sys_id>d4d1acdc083b03007f44231aab67e315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">a466c7e7086303007f44231aab67e3d4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">a466c7e7086303007f44231aab67e3d4</sys_scope>
-        <sys_update_name>sys_app_module_5d8bcf2b086303007f44231aab67e31b</sys_update_name>
+        <sys_update_name>sys_app_module_d4d1acdc083b03007f44231aab67e315</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-17 09:33:48</sys_updated_on>
+        <sys_updated_on>2018-01-17 09:15:59</sys_updated_on>
         <timeline_page/>
-        <title>Open</title>
+        <title>Admin</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
